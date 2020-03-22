@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Laikas Lietuvoje</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <div id="clock">
+      <h1>Laikas Lietuvoje</h1>
+      <div id="time">
+      <div><span id="hours">00</span><span>Valandos</span></div>
+      <div><span id="minutes">00</span><span>Minutės</span></div>
+      <div><span id="seconds">00</span><span>Sekundės</span></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function clock(){
+        var h = document.getElementById('hours');
+        var m = document.getElementById('minetes');
+        var s = document.getElementById('seconds');
+
+        var h = new Date().getHours();
+        var m = new Date().getMinutes();
+        var s = new Date().getSeconds();
+
+        hours.innerHTML = h;
+        minutes.innerHTML = m;
+        seconds.innerHTML = s;
+
+      }
+
+      var interval = setInterval(clock, 1000);
+    </script>
+  </body>
+</html>
