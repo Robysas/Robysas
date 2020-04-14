@@ -57,7 +57,6 @@ min-height: 35vh;
   align-items: center;
   font-size: 3em;
   z-index: 10;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0,.5);
 }
 #clock #time div span:nth-child(2)
 {
@@ -69,4 +68,30 @@ min-height: 35vh;
   z-index: 9;
   box-shadow: none;
   background-color: #663399;
+}
+
+
+#main h2
+{
+  min-height: 90vh;
+  right: 380px;
+  position: relative;
+  display: block;
+  color: #fff;
+  vertical-align: top;
+  text-align: left;
+  margin: 20px 0;
+  font-weight: 180;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 1.5em;
+}
+#quote
+{
+  color: #FFF;
+  position: absolute;
+  text-align: justify;
+  left: 505px;
+  top: 125px;
+  font-size: 30px;
 }
